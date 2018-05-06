@@ -53,6 +53,10 @@
       <Project>{bf6ebb65-0d8d-4078-8fc3-915fc0a73fe9}</Project>
       <Name>Sepo</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Tasks\Tasks.csproj">
+      <Project>{2c8c5921-d1d4-4e76-9c7c-db8ecb8b2106}</Project>
+      <Name>Tasks</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

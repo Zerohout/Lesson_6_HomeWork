@@ -22,6 +22,12 @@ namespace Sepo
             Console.WriteLine($"{numTask}) {nameTask}.");
         }
 
+        public void InputDescript(string inputDescript) // Просьба ввода
+        {
+            Console.SetCursorPosition(5, Console.CursorTop + 1);
+            Console.Write($"{inputDescript}: ");
+        }
+
         public int UserSelTask() // Выбор пользователя
         {
             try

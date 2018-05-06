@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Sepo;
+using Tasks;
+//using AllTasks = AllTasks.AllTasks;
 
 namespace StartProgram
 {
@@ -17,6 +19,7 @@ namespace StartProgram
                 {
                     break;
                 }
+                Exit.ExitProgram();
             }
         }
 
@@ -27,17 +30,17 @@ namespace StartProgram
             st.Label("Выберите действие");
             st.AddPoint(0,"Выход из программы");
             st.AddPoint(1,"Задание №1");
+            st.AddPoint(2,"Задание №2");
+            st.AddPoint(5,"Сложное задание №5");
             var sel = st.UserSelTask();
-            switch (sel)
-            {
-                    case 0:
-                        Exit.ExitProgram();
-                        return false;
-                    case 1:
 
-                        return true;
-                    default:
-                        return true;
+            if (sel == 0)
+            {
+                return false;
+            }
+            while (true)
+            {
+                return AllTasks.TaskTumbler(sel);
             }
         }
     }
