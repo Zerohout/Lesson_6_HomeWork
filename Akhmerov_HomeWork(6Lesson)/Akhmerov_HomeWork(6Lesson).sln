@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartProgram", "StartProgram\StartProgram.csproj", "{16342BF7-94D8-4EF5-B868-380899BD0A2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sepo", "Sepo\Sepo.csproj", "{BF6EBB65-0D8D-4078-8FC3-915FC0A73FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks", "Tasks\Tasks.csproj", "{2C8C5921-D1D4-4E76-9C7C-DB8ECB8B2106}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16342BF7-94D8-4EF5-B868-380899BD0A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16342BF7-94D8-4EF5-B868-380899BD0A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16342BF7-94D8-4EF5-B868-380899BD0A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16342BF7-94D8-4EF5-B868-380899BD0A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF6EBB65-0D8D-4078-8FC3-915FC0A73FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6EBB65-0D8D-4078-8FC3-915FC0A73FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6EBB65-0D8D-4078-8FC3-915FC0A73FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6EBB65-0D8D-4078-8FC3-915FC0A73FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8C5921-D1D4-4E76-9C7C-DB8ECB8B2106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8C5921-D1D4-4E76-9C7C-DB8ECB8B2106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8C5921-D1D4-4E76-9C7C-DB8ECB8B2106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8C5921-D1D4-4E76-9C7C-DB8ECB8B2106}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93994C7B-D591-49EF-9D74-A547D1C2CFD6}
+	EndGlobalSection
+EndGlobal
